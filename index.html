@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowDesk — AI-Powered Project Management</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Feather Icons CDN -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">&#9670;</span> FlowDesk
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta-mobile">
+          <a href="#contact" class="btn btn-primary btn-sm">Get Started</a>
+        </li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta-desktop">Get Started</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="hero-badge">🚀 Now with AI-Powered Insights</span>
+        <h1 class="hero-title">
+          Manage Projects.<br />
+          <span class="text-gradient">Effortlessly.</span>
+        </h1>
+        <p class="hero-description">
+          FlowDesk brings your team together with smart task tracking,
+          real-time collaboration, and AI-driven insights — all in one
+          beautiful workspace. Ship faster. Stress less.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-lg">
+            Request a Demo
+            <i data-feather="arrow-right"></i>
+          </a>
+          <a href="#how-it-works" class="btn btn-outline btn-lg">
+            See How It Works
+          </a>
+        </div>
+        <div class="hero-social-proof">
+          <div class="avatar-stack">
+            <div class="avatar" style="background: #6366f1">JD</div>
+            <div class="avatar" style="background: #8b5cf6">AK</div>
+            <div class="avatar" style="background: #a78bfa">MR</div>
+            <div class="avatar" style="background: #c4b5fd">TS</div>
+          </div>
+          <p><strong>2,400+</strong> teams already on FlowDesk</p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="dashboard-mockup">
+          <div class="mockup-header">
+            <div class="mockup-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span class="mockup-title">FlowDesk Dashboard</span>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-sidebar">
+              <div class="sidebar-item active">📊 Dashboard</div>
+              <div class="sidebar-item">📋 Tasks</div>
+              <div class="sidebar-item">👥 Team</div>
+              <div class="sidebar-item">📈 Analytics</div>
+            </div>
+            <div class="mockup-content">
+              <div class="stat-cards">
+                <div class="stat-card">
+                  <span class="stat-label">Active Tasks</span>
+                  <span class="stat-value">24</span>
+                  <span class="stat-change positive">+12%</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-label">Completed</span>
+                  <span class="stat-value">156</span>
+                  <span class="stat-change positive">+8%</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-label">Team Score</span>
+                  <span class="stat-value">94%</span>
+                  <span class="stat-change positive">+3%</span>
+                </div>
+              </div>
+              <div class="progress-bars">
+                <div class="progress-item">
+                  <span>Website Redesign</span>
+                  <div class="progress-bar"><div class="progress-fill" style="width:78%"></div></div>
+                </div>
+                <div class="progress-item">
+                  <span>Mobile App v2</span>
+                  <div class="progress-bar"><div class="progress-fill" style="width:45%"></div></div>
+                </div>
+                <div class="progress-item">
+                  <span>API Integration</span>
+                  <div class="progress-bar"><div class="progress-fill" style="width:92%"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FEATURES SECTION ==================== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Features</span>
+        <h2 class="section-title">Everything your team needs</h2>
+        <p class="section-subtitle">
+          Powerful tools designed to help teams plan, track, and deliver
+          exceptional work — without the complexity.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" style="background: #ede9fe; color: #7c3aed">
+            <i data-feather="zap"></i>
+          </div>
+          <h3 class="feature-title">AI Task Prioritization</h3>
+          <p class="feature-description">
+            Our AI engine analyzes deadlines, dependencies, and workload
+            to automatically prioritize what matters most for your team.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background: #dbeafe; color: #2563eb">
+            <i data-feather="users"></i>
+          </div>
+          <h3 class="feature-title">Real-Time Collaboration</h3>
+          <p class="feature-description">
+            Work together seamlessly with live cursors, inline comments,
+            and instant notifications. No more waiting for email replies.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background: #d1fae5; color: #059669">
+            <i data-feather="bar-chart-2"></i>
+          </div>
+          <h3 class="feature-title">Smart Analytics</h3>
+          <p class="feature-description">
+            Get actionable insights into team performance, project health,
+            and delivery forecasts with beautiful, interactive dashboards.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background: #fef3c7; color: #d97706">
+            <i data-feather="shield"></i>
+          </div>
+          <h3 class="feature-title">Enterprise Security</h3>
+          <p class="feature-description">
+            SOC 2 compliant with end-to-end encryption, SSO, and
+            role-based access controls to keep your data safe.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background: #fce7f3; color: #db2777">
+            <i data-feather="git-merge"></i>
+          </div>
+          <h3 class="feature-title">Workflow Automation</h3>
+          <p class="feature-description">
+            Automate repetitive tasks with custom triggers and actions.
+            Move cards, assign tasks, and send alerts on autopilot.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background: #e0e7ff; color: #4f46e5">
+            <i data-feather="layers"></i>
+          </div>
+          <h3 class="feature-title">100+ Integrations</h3>
+          <p class="feature-description">
+            Connect with Slack, GitHub, Figma, Google Workspace, and more.
+            FlowDesk fits right into your existing tool stack.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== HOW IT WORKS ==================== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">How It Works</span>
+        <h2 class="section-title">Get started in three simple steps</h2>
+        <p class="section-subtitle">
+          FlowDesk is designed to be intuitive. Your team can be up and
+          running in under 5 minutes — no training required.
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-visual">
+            <div class="step-illustration">
+              <i data-feather="user-plus"></i>
+            </div>
+          </div>
+          <h3 class="step-title">Create Your Workspace</h3>
+          <p class="step-description">
+            Sign up for free, name your workspace, and invite your team
+            members via email. It takes less than 60 seconds.
+          </p>
+        </div>
+
+        <div class="step-connector">
+          <i data-feather="chevrons-right"></i>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-visual">
+            <div class="step-illustration">
+              <i data-feather="layout"></i>
+            </div>
+          </div>
+          <h3 class="step-title">Organize Your Projects</h3>
+          <p class="step-description">
+            Create boards, add tasks, set deadlines, and assign team
+            members. Use templates or start from scratch.
+          </p>
+        </div>
+
+        <div class="step-connector">
+          <i data-feather="chevrons-right"></i>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-visual">
+            <div class="step-illustration">
+              <i data-feather="trending-up"></i>
+            </div>
+          </div>
+          <h3 class="step-title">Track & Deliver</h3>
+          <p class="step-description">
+            Monitor progress in real time, leverage AI recommendations,
+            and hit every deadline with confidence.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PRICING SECTION ==================== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Pricing</span>
+        <h2 class="section-title">Simple, transparent pricing</h2>
+        <p class="section-subtitle">
+          No hidden fees. No surprises. Start free and upgrade when
+          you're ready.
+        </p>
+      </div>
+
+      <div class="pricing-toggle">
+        <span class="toggle-label" id="monthlyLabel">Monthly</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="pricingToggle" />
+          <span class="toggle-slider"></span>
+        </label>
+        <span class="toggle-label" id="yearlyLabel">
+          Yearly <span class="save-badge">Save 20%</span>
+        </span>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Free Plan -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3 class="plan-name">Starter</h3>
+            <p class="plan-tagline">For small teams getting started</p>
+          </div>
+          <div class="pricing-amount">
+            <span class="currency">$</span>
+            <span class="price" data-monthly="0" data-yearly="0">0</span>
+            <span class="period">/ month</span>
+          </div>
+          <ul class="plan-features">
+            <li><i data-feather="check"></i> Up to 5 team members</li>
+            <li><i data-feather="check"></i> 3 active projects</li>
+            <li><i data-feather="check"></i> Basic task management</li>
+            <li><i data-feather="check"></i> 1 GB storage</li>
+            <li><i data-feather="check"></i> Community support</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Get Started Free</a>
+        </div>
+
+        <!-- Pro Plan (Popular) -->
+        <div class="pricing-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3 class="plan-name">Professional</h3>
+            <p class="plan-tagline">For growing teams that need more</p>
+          </div>
+          <div class="pricing-amount">
+            <span class="currency">$</span>
+            <span class="price" data-monthly="12" data-yearly="10">12</span>
+            <span class="period">/ user / month</span>
+          </div>
+          <ul class="plan-features">
+            <li><i data-feather="check"></i> Unlimited team members</li>
+            <li><i data-feather="check"></i> Unlimited projects</li>
+            <li><i data-feather="check"></i> AI task prioritization</li>
+            <li><i data-feather="check"></i> Advanced analytics</li>
+            <li><i data-feather="check"></i> 50 GB storage</li>
+            <li><i data-feather="check"></i> Priority email support</li>
+            <li><i data-feather="check"></i> Custom workflows</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-block">Start Free Trial</a>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3 class="plan-name">Enterprise</h3>
+            <p class="plan-tagline">For large organizations</p>
+          </div>
+          <div class="pricing-amount">
+            <span class="currency">$</span>
+            <span class="price" data-monthly="39" data-yearly="31">39</span>
+            <span class="period">/ user / month</span>
+          </div>
+          <ul class="plan-features">
+            <li><i data-feather="check"></i> Everything in Professional</li>
+            <li><i data-feather="check"></i> SSO & SAML</li>
+            <li><i data-feather="check"></i> Unlimited storage</li>
+            <li><i data-feather="check"></i> Audit logs</li>
+            <li><i data-feather="check"></i> Dedicated account manager</li>
+            <li><i data-feather="check"></i> Custom integrations</li>
+            <li><i data-feather="check"></i> 99.9% SLA uptime</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS (bonus) ==================== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Testimonials</span>
+        <h2 class="section-title">Loved by teams worldwide</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "FlowDesk transformed how our engineering team delivers projects.
+            The AI prioritization alone saved us 10 hours a week."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: #6366f1">SP</div>
+            <div>
+              <strong>Sarah Park</strong>
+              <span>VP of Engineering, TechCorp</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "We tried 5 different project management tools before FlowDesk.
+            Nothing else comes close to this level of simplicity and power."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: #059669">MJ</div>
+            <div>
+              <strong>Mike Johnson</strong>
+              <span>Product Manager, StartupXYZ</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "The real-time collaboration features are incredible. Our remote
+            team feels more connected than ever. Highly recommend!"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: #d97706">AL</div>
+            <div>
+              <strong>Aisha Lee</strong>
+              <span>Design Lead, CreativeHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT / DEMO REQUEST ==================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Ready to transform your workflow?</h2>
+          <p class="contact-description">
+            Fill out the form to request a personalized demo, or reach out
+            to us directly. We'd love to show you how FlowDesk can help
+            your team.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i data-feather="mail"></i>
+              <span>hello@flowdesk.io</span>
+            </div>
+            <div class="contact-item">
+              <i data-feather="phone"></i>
+              <span>+1 (555) 123-4567</span>
+            </div>
+            <div class="contact-item">
+              <i data-feather="map-pin"></i>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="demoForm" novalidate>
+            <h3 class="form-title">Request a Demo</h3>
+            <div class="form-group">
+              <label for="fullName">Full Name <span class="required">*</span></label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="e.g. John Doe"
+                required
+              />
+              <span class="error-message" id="fullNameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email <span class="required">*</span></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="e.g. john@company.com"
+                required
+              />
+              <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name <span class="required">*</span></label>
+              <input
+                type="text"
+                id="company"
+                name="company"
+                placeholder="e.g. Acme Inc."
+                required
+              />
+              <span class="error-message" id="companyError"></span>
+            </div>
+            <div class="form-group">
+              <label for="teamSize">Team Size</label>
+              <select id="teamSize" name="teamSize">
+                <option value="">Select team size</option>
+                <option value="1-10">1–10 people</option>
+                <option value="11-50">11–50 people</option>
+                <option value="51-200">51–200 people</option>
+                <option value="200+">200+ people</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="3"
+                placeholder="Tell us about your team's needs..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">
+              Request Demo
+              <i data-feather="send"></i>
+            </button>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="successMessage">
+            <div class="success-icon">
+              <i data-feather="check-circle"></i>
+            </div>
+            <h3>Thank you!</h3>
+            <p>Your demo request has been submitted successfully. Our team will reach out within 24 hours.</p>
+            <button class="btn btn-outline" id="resetFormBtn">Submit Another Request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-icon">&#9670;</span> FlowDesk
+          </a>
+          <p class="footer-description">
+            AI-powered project management for modern teams. Plan, track,
+            and deliver — all in one place.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+            <a href="#" aria-label="GitHub"><i data-feather="github"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">GDPR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 FlowDesk. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i data-feather="chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
